@@ -10,6 +10,7 @@
   "employee_name",
   "log_type",
   "shift",
+  "image",
   "column_break_4",
   "time",
   "device_id",
@@ -164,10 +165,16 @@
    "fieldname": "fetch_geolocation",
    "fieldtype": "Button",
    "label": "Fetch Geolocation"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
   }
  ],
+ "image_field": "image",
  "links": [],
- "modified": "2024-05-29 21:19:11.550766",
+ "modified": "2024-10-25 12:07:49.996052",
  "modified_by": "Administrator",
  "module": "HR",
  "name": "Employee Checkin",
